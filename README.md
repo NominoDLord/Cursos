@@ -11,7 +11,6 @@ Si se hace uso de su contenido fuera de este lugar la persona deberá hacer refe
 -     github.com/NominoDLord
 
 LISTADO DE CARPETAS
-────────────────────────────────────────────────────────────────────────────
 -     GIT            ->         Git / GitHub               [En desarrollo]
 -     WEB            ->         HTML / CSS / JS            [En desarrollo]
 -     PYTHON         ->         Python                     [En desarrollo]
@@ -24,4 +23,4 @@ Para cualquier pregunta, aportación o si se quiere colaborar con este o cualqui
 -     nominodlord@mailfence.com
 
 Colaboradores:
--     Nomino D Lord
+-     Nômino D Lord
