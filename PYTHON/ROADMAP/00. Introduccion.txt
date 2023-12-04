@@ -1,0 +1,43 @@
+########################################################################################################################
+##                                                                                                                    ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ##      #####   #####   #####         ##
+##       ###  ##  ##   ##  ###  ###    ##    ###  ##  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ## # ##  ##   ##  ## ## ##    ##    ## # ##  ##   ##      ##   ##      ##     ##   ##  #####   ##   ##       ##
+##       ##  ###  ##   ##  ##    ##    ##    ##  ###  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ######  #####   ##  ##  #####         ##
+##                                                                                                                    ##
+########################################################################################################################
+
+	¿QUÉ ES PYTHON?
+
+Python es un lenguaje de programación de alto nivel, interpretado, multiplataforma y orientado a objetos.
+
+· Alto Nivel   → Se refiere a la escritura de código en un nivel que es más cercano al lenguaje humano.
+· Interpretado → El código se ejecuta línea por línea por un intérprete.
+
+
+
+
+
+
+
+es la implementación por defecto y más utilizada del lenguaje de programación Python.
+
+
+
+
+· Introducir un directorio dentro de una cadena de texto correctamente:
+
+Las direcciones de las carpetas contienen la siguiente estructura...
+
+>>> C:\Users\Name\Documents
+
+El carácter "\" está destinado para marcar los caracteres de escape (Scape Characters).
+Si introducimos esta estructura dentro de una variable nos generará un error.
+Por ese motivo, hay que tener cuidado al introducir en nuestro código directorios locales y
+cambiar el carácter "\" por el de "/".
+
+>>> C:/Users/Name/Documents
+
+
+"C:/Users/Ferran/Documents/Modo Diablo [ChatGPT].txt"
