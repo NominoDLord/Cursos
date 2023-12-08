@@ -1,0 +1,49 @@
+########################################################################################################################
+##                                                                                                                    ##
+##                                                                                                                    ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ##      #####   #####   #####         ##
+##       ###  ##  ##   ##  ###  ###    ##    ###  ##  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ## # ##  ##   ##  ## ## ##    ##    ## # ##  ##   ##      ##   ##      ##     ##   ##  #####   ##   ##       ##
+##       ##  ###  ##   ##  ##    ##    ##    ##  ###  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ######  #####   ##  ##  #####         ##
+##                                                                                                                    ##
+##                                                                                                                    ##
+########################################################################################################################
+
+[ G I T  H U B ]
+
+
+
+
+
+
+
+
+
+::: N O T A S :::
+
+/. ¿cómo indicar en .gitignore que no quiero que rastree una carpeta o tipo de archivo? ./
+
+Para indicar en el archivo .gitignore que no deseas que Git rastree la carpeta llamada "nombre_carpeta", simplemente agrega la siguiente línea al archivo .gitignore en la raíz de tu repositorio:
+
+[.gitignore]
+nombre_carpeta/
+
+Esta línea le dice a Git que ignore la carpeta llamada "nombre_carpeta" y no rastree sus contenidos ni sus cambios. Asegúrate de guardar el archivo .gitignore después de hacer esta modificación.
+
+---
+
+Si también quieres ignorar archivos específicos dentro de la carpeta "nombre_carpeta", puedes agregar patrones adicionales en el archivo .gitignore. Por ejemplo, para ignorar todos los archivos .txt dentro de la carpeta "nombre_carpeta", podrías agregar la siguiente línea:
+
+[.gitignore]
+nombre_carpeta/*.txt
+
+---
+
+Luego, si aún no has hecho el commit inicial, Git dejará de rastrear la carpeta "nombre_carpeta". Si ya has hecho commits previos que incluyen esta carpeta, deberás eliminarla de Git usando el siguiente comando:
+
+[bash]
+Copy code
+git rm -r --cached nombre_carpeta
+
+Esto eliminará la carpeta "nombre_carpeta" del índice de Git (sin borrar los archivos en tu sistema de archivos). Luego, realiza un nuevo commit para aplicar los cambios. A partir de ese momento, Git dejará de rastrear la carpeta "nombre_carpeta".

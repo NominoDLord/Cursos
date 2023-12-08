@@ -1,0 +1,64 @@
+########################################################################################################################
+##                                                                                                                    ##
+##                                                                                                                    ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ##      #####   #####   #####         ##
+##       ###  ##  ##   ##  ###  ###    ##    ###  ##  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ## # ##  ##   ##  ## ## ##    ##    ## # ##  ##   ##      ##   ##      ##     ##   ##  #####   ##   ##       ##
+##       ##  ###  ##   ##  ##    ##    ##    ##  ###  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ######  #####   ##  ##  #####         ##
+##                                                                                                                    ##
+##                                                                                                                    ##
+########################################################################################################################
+
+[ V A R I A B L E S ]
+
+------------------------
+
+
+proporcion_true = 0
+proporcion_false = 0
+
+def calcular_apuesta(resultado, opciones_true, opciones_false):
+    global proporcion_true, proporcion_false
+
+    # Actualizar variables globales
+    if resultado is True:
+        proporcion_true += opciones_false
+        print(proporcion_true)
+
+    elif resultado is False:
+        proporcion_false += opciones_true
+        print(proporcion_false)
+
+# Ejemplos de uso:
+calcular_apuesta(True, 10, 20)
+calcular_apuesta(False, 5, 15)
+
+
+------------------------
+
+
+def calcular_apuesta(resultado, opciones_true, opciones_false):
+    # -------------------------------------------------------------------------------------------------------------
+    # Inicializar proporcion_true y proporcion_false si no existen
+    if not hasattr(calcular_apuesta, "proporcion_true"):
+        calcular_apuesta.proporcion_true = 0
+    if not hasattr(calcular_apuesta, "proporcion_false"):
+        calcular_apuesta.proporcion_false = 0
+    # -------------------------------------------------------------------------------------------------------------
+    # total_opciones = opciones_true + opciones_false
+
+    if resultado is True:
+
+        calcular_apuesta.proporcion_true += opciones_false
+        print(calcular_apuesta.proporcion_true)
+
+    if resultado is False:
+
+        calcular_apuesta.proporcion_false += opciones_true
+        print(calcular_apuesta.proporcion_false)
+
+
+------------------------
+
+

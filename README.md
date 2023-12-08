@@ -35,25 +35,26 @@ Tambien estoy abierto a cualquier sugerencia o proyecto interesante.
 
 ### *::: ESTRUCTURA :::*
 
+```
 CURSOS/
 |
 |-- LICENSE
 |-- LICENSE-es
 |-- README.md
 |
-|-- PYTHON/
+| > PYTHON/
 |   |
 |   |-- README.md
 |   |
-|   |-- ROADMAP/
+|   | > ROADMAP/
 |   |
 |   |
 |   |
-|   |-- EJERCICIOS/
+|   | > EJERCICIOS/
 |   |
 |   |
 |   |
-|   |-- RESUELTOS
+|   | > RESUELTOS/
 |   |
 |   |
 |   |

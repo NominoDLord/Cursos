@@ -1,0 +1,46 @@
+########################################################################################################################
+##                                                                                                                    ##
+##                                                                                                                    ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ##      #####   #####   #####         ##
+##       ###  ##  ##   ##  ###  ###    ##    ###  ##  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ## # ##  ##   ##  ## ## ##    ##    ## # ##  ##   ##      ##   ##      ##     ##   ##  #####   ##   ##       ##
+##       ##  ###  ##   ##  ##    ##    ##    ##  ###  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ######  #####   ##  ##  #####         ##
+##                                                                                                                    ##
+##                                                                                                                    ##
+########################################################################################################################
+
+
+
+
+
+
+
+::: TIPOS DE AVISOS :::
+
+
+
+
+
+PEP 8: W391 blank line at end of file
+
+	Este aviso indica que tenemos que dejar la última línea de código en blanco después de la última sentencia.
+	
+	Motivos:
+	
+		· Compatibilidad multiplataforma:
+			
+			Algunos sistemas operativos (especialmente Windows) pueden interpretar incorrectamente el archivo si no termina con una nueva línea.
+			Esto puede causar problemas al mostrar el código o al trabajar con herramientas que esperan que un archivo termine con una línea nueva.
+
+		· Facilita la edición y manipulación del archivo:
+			
+			Muchos editores de texto y herramientas de manipulación de texto asumen que un archivo bien formateado debería terminar con una línea nueva.
+			Imagina que utilizamos un programa para ir añadiendo nuevas líneas de código a un archivo. Si este no acaba en una línea en blanco, el programa podría añadir el nuevo código delante de la última sentica, lo que (muy probablemente) esto generaría un error de ejecución del nuevo código.
+
+	Consejos:
+	
+		PyCharm va a generar este error siempre que no cumplamos esta condición, lo cual, llega a ser un poco molesto que te salga el aviso de "error" cuando estás escribiendo el código.
+		Por eso, lo que yo hago es escribir # al final del código y dejo la línea en blanco. De esta forma, el programa ya no genera este error.
+
+	
