@@ -1,0 +1,215 @@
+########################################################################################################################
+##                                                                                                                    ##
+##                                                                                                                    ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ##      #####   #####   #####         ##
+##       ###  ##  ##   ##  ###  ###    ##    ###  ##  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ## # ##  ##   ##  ## ## ##    ##    ## # ##  ##   ##      ##   ##      ##     ##   ##  #####   ##   ##       ##
+##       ##  ###  ##   ##  ##    ##    ##    ##  ###  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ######  #####   ##  ##  #####         ##
+##                                                                                                                    ##
+##                                                                                                                    ##
+########################################################################################################################
+
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                       B   I   B   L   I   O   T   E   C   A   S                                      ║
+║                                  --------------------------------------------------                                  ║
+║                                                 P   Y   T   H   O   N                                                ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+########################################################################################################################
+##                                                                                                                    ##
+##  Las "bibliotecas" son conocidas también como "módulos" o "paquetes" y su función es el de reutilizar el código.   ##
+##                                                                                                                    ##
+##  Existen bibliotecas especificadas para crear gráficos, video-juegos, realizar ecuaciones matemáticas, etc.        ##
+##                                                                                                                    ##
+##  Hay una increíble variedad de ellas y a veces es fácil perderse, por lo que, he creado esta sección en la que     ##
+##  añado un puñado de ellas con algunas de sus funciones más importantes.                                            ##
+##                                                                                                                    ##
+########################################################################################################################
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  -   I  N  D  E  X   -  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                B  U  I  L  T  -  I  N       F  U  N  C  T  I  O  N  S                                │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+abs(x)                                          ## Devuelve el valor absoluto de x.
+all(iterable)                                   ## Devuelve True si todos los elementos del iterable son verdaderos (o si el iterable está vacío).
+any(iterable)                                   ## Devuelve True si al menos uno de los elementos del iterable es verdadero.
+ascii(object)                                   ## Devuelve una versión de cadena con caracteres de escape para caracteres no ASCII.
+bin (x)                                         ## Convierte un entero x en una cadena binaria.
+bool(x)                                         ## Convierte un valor en un valor booleano (verdadero o falso).
+bytearray(+)                                    ## Crea un objeto bytearray mutable.
+bytes()                                         ## Crea un objeto bytes inmutable.
+callable(object)                                ## Verifica si un objeto es "llamable" (puede ser llamado como una función).
+chr(i)                                          ## Devuelve el carácter Unicode correspondiente al entero i.
+classmethod(function)                           ## Transforma un método en un método de clase.
+compile(source, filename, mode, flags=0, dont_inherit=False, optimize=-1) ## Compila el código fuente en un objeto de código o AST.
+complex(real, imag=0)                           ## Crea un número complejo.
+delattr(object, name)                           ## Elimina un atributo de un objeto.
+dict()                                          ## Crea un diccionario vacío.
+dir([object])                                   ## Lista todos los nombres en el espacio de nombres actual o los nombres en el espacio de nombres de un objeto.
+divmod(a, b)                                    ## Devuelve el cociente y el residuo de la división de a por b.
+enumerate(iterable, start=0)                    ## Devuelve tuplas que contienen índices y elementos de un iterable.
+eval(expression, globals=None, locals=None)     ## Evalúa una expresión en una cadena como una expresión de Python.
+exec(object[, globals[, locals]])               ## Ejecuta código dinámico contenido en un objeto.
+filter(function, iterable)                      ## Filtra los elementos de un iterable según una función de prueba.
+float(x)                                        ## Convierte un número o cadena en un número de punto flotante.
+format(value, format_spec)                      ## Formatea un valor según un formato especificado.
+frozenset()                                     ## Crea un conjunto inmutable.
+getattr(object, name[, default])                ## Obtiene el valor de un atributo de un objeto.
+globals()                                       ## Devuelve un diccionario que representa el espacio de nombres global actual.
+hasattr(object, name)                           ## Verifica si un objeto tiene un atributo con un nombre específico.
+hash(object)                                    ## Devuelve el valor hash de un objeto (un entero inmutable).
+help([object])                                  ## Muestra la documentación de ayuda.
+hex(x)                                          ## Convierte un entero en una cadena hexadecimal.
+id(object)                                      ## Devuelve la identificación única de un objeto.
+input([prompt])                                 ## Lee una línea de entrada desde el usuario.
+int(x, base=10)                                 ## Convierte un número o cadena en un entero.
+isinstance(object, classinfo)                   ## Verifica si un objeto es una instancia de una clase o una tupla de clases.
+issubclass(class, classinfo)                    ## Verifica si una clase es una subclase de una clase o una tupla de clases.
+iter(object[, sentinel])                        ## Crea un iterador para un objeto iterable.
+len(s)                                          ## Devuelve la longitud (número de elementos) de una secuencia.
+list()                                          ## Crea una lista vacía.
+locals()                                        ## Devuelve un diccionario que representa el espacio de nombres local actual.
+map(function, iterable, ...)                    ## Aplica una función a cada elemento de uno o más iterables.
+max(iterable, *[, key, default])                ## Devuelve el elemento máximo de un iterable o el valor máximo de varios argumentos.
+memoryview(obj)                                 ## Crea una vista de memoria en un objeto exportable.
+min(iterable, *[, key, default])                ## Devuelve el elemento mínimo de un iterable o el valor mínimo de varios argumentos.
+next(iterator[, default])                       ## Obtiene el siguiente elemento de un iterador.
+object()                                        ## Crea un nuevo objeto sin características o métodos.
+oct(x)                                          ## Convierte un entero en una cadena octal.
+open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)     ## Abre un archivo.
+ord(c)                                          ## Devuelve el valor entero del carácter Unicode c.
+pow(x, y, z=None)                               ## Calcula x elevado a la potencia y, con un tercer argumento opcional para realizar la operación módulo.
+print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)    ## Imprime valores en la consola.
+property(fget=None, fset=None, fdel=None, doc=None)                 ## Crea y devuelve una propiedad de un objeto.
+range(stop), range(start, stop, step)                               ## Crea una secuencia de números enteros.
+repr(object)                                     ## Devuelve una representación de cadena imprimible de un objeto.
+reversed(seq)                                    ## Devuelve una secuencia reversa de un iterable.
+round(number, ndigits=None)                      ## Redondea un número a un número decimal específico de dígitos.
+set()                                            ## Crea un conjunto vacío.
+setattr(object, name, value)                     ## Establece un atributo de un objeto.
+slice(stop), slice(start, stop, step)            ## Crea un objeto de corte para indexar secuencias.
+sorted(iterable, key=None, reverse=False)        ## Ordena una secuencia y devuelve una nueva secuencia ordenada.
+staticmethod(function)                           ## Transforma una función en un método estático.
+str(object='')                                   ## Convierte un valor en una cadena.
+sum(iterable, /, start=0)                        ## Suma todos los elementos de un iterable.
+super([type[, object-or-type]])                  ## Proporciona acceso a las funciones de una superclase.
+tuple()                                          ## Crea una tupla vacía.
+type(object)                                     ## Devuelve el tipo de un objeto.
+vars([object])                                   ## Devuelve el diccionario __dict__ de un objeto.
+
+
+
+
+                  ┌───────────────────────────────────┐
+──────────────────┤          R  A  N  D  O  M         ├──────────────────
+                  └───────────────────────────────────┘
+
+
+
+
+random()                        ## Genera un número decimal aleatorio en el rango [0.0, 1.0).
+seed(a=None, version=2)		    ## Inicializa el generador de números pseudoaleatorios con una semilla dada.
+getstate()                      ## Obtiene el estado interno del generador de números pseudoaleatorios.
+setstate(state)		            ## Restaura el estado interno del generador de números pseudoaleatorios a un estado previamente guardado.
+getrandbits(k)		            ## Genera un número entero aleatorio de k bits.
+randint(a, b)		            ## Genera un número entero aleatorio en el rango [a, b], incluyendo ambos extremos.
+randrange(stop), randrange(start, stop, step) 	## Genera un número entero aleatorio dentro de un rango definido por start, stop y un paso opcional.
+uniform(a, b) 					## Genera un número decimal aleatorio en el rango [a, b).
+triangular(low, high, mode)		## Genera un número decimal aleatorio con una distribución triangular.
+choice(seq)						## Selecciona aleatoriamente un elemento de una secuencia (por ejemplo, una lista o una cadena).
+choices(population, weights=None, *, cum_weights=None, k=1)		## Devuelve una lista con k elementos seleccionados al azar de una población, con la opción de asignar pesos a los elementos.
+shuffle(x, random=None)			## Baraja aleatoriamente los elementos de una secuencia (por ejemplo, una lista).
+sample(population, k)			## Devuelve una lista con k elementos únicos seleccionados al azar de una población.
+gammavariate(alpha, beta)		## Genera un número aleatorio de una distribución gamma.
+gauss(mu, sigma)				## Genera un número aleatorio de una distribución normal (gaussiana).
+lognormvariate(mu, sigma)		## Genera un número aleatorio de una distribución log-normal.
+normalvariate(mu, sigma)		## Genera un número aleatorio de una distribución normal.
+vonmisesvariate(mu, kappa)		## Genera un número aleatorio de una distribución von Mises.
+paretovariate(alpha)			## Genera un número aleatorio de una distribución de Pareto.
+weibullvariate(alpha, beta)		## Genera un número aleatorio de una distribución de Weibull.
+betavariate(alpha, beta)		## Genera un número aleatorio de una distribución beta.
+expovariate(lambd)				## Genera un número aleatorio de una distribución exponencial.
+loggamma(alpha, beta)			## Genera un número aleatorio de una distribución log-gamma.
+gammavariate(alpha, beta)		## Genera un número aleatorio de una distribución gamma.
+lognormvariate(mu, sigma)		## Genera un número aleatorio de una distribución log-normal.
+normalvariate(mu, sigma)		## Genera un número aleatorio de una distribución normal.
+vonmisesvariate(mu, kappa)		## Genera un número aleatorio de una distribución von Mises.
+paretovariate(alpha)			## Genera un número aleatorio de una distribución de Pareto.
+weibullvariate(alpha, beta)		## Genera un número aleatorio de una distribución de Weibull.
+betavariate(alpha, beta)		## Genera un número aleatorio de una distribución beta.
+expovariate(lambd)				## Genera un número aleatorio de una distribución exponencial.
+shuffle(x, random=None)			## Baraja aleatoriamente los elementos de una secuencia (por ejemplo, una lista).
+sample(population, k)			## Devuelve una lista con k elementos únicos seleccionados al azar de una población.
+
+
+
+                  ┌───────────────────────────────────┐
+──────────────────┤        M A T P L O T L I B        ├──────────────────
+                  └───────────────────────────────────┘
+
+Biblioteca externa de Python
+>>> pip3 install matplotlib
+
+Esta biblioteca se usa para la visualización de datos y gráficos.
+Puedes crear gráficos estáticos, gráficos interactivos y animaciones.
+Es especialmente útil en campos como la ciencia de datos, la ingeniería,
+la investigación científica y la visualización de datos en general.
+
+	::: MODULOS :::
+
+pyplot: Proporciona una interfaz de alto nivel para crear gráficos y visualizaciones de forma rápida y sencilla.
+figure: Permite controlar las características de una figura (lienzo) en la que se representarán los gráficos.
+axes: Proporciona un objeto para trabajar con ejes en un gráfico, lo que incluye la creación de subgráficos.
+pylab: Un módulo que combina las funciones de pyplot y numpy para un flujo de trabajo similar a MATLAB.
+Algunas funciones comunes:
+
+	::: FUNCIONES :::
+
+plot()				## Crea gráficos de líneas.
+scatter()			## Crea gráficos de dispersión.
+bar()		 		## Crea gráficos de barras verticales.
+barh()				## Crea gráficos de barras horizontales.
+hist()				## Crea histogramas.
+boxplot()			## Crea gráficos de caja y bigotes.
+pie()				## Crea gráficos de torta.
+imshow()			## Muestra imágenes en un gráfico.
+contour()			## Crea gráficos de contorno.
+contourf()			## Crea gráficos de contorno.
+quiver()			## Crea gráficos de vectores.
+polar()				## Crea gráficos polares.
+subplot()			## Divide una figura en subgráficos.
+colorbar()			## Agrega una barra de colores a un gráfico.
+legend()			## Agrega leyendas a un gráfico.
+xlabel()			## Agrega una etiqueta en el eje 'x'.
+ylabel()			## Agrega una etiqueta en el eje 'y'.
+title()				## Agrega un título a los gráficos.
+grid()				## Agrega una cuadrícula al gráfico.
+text()				## Agrega texto a un gráfico.
+annotate()			## Agrega anotaciones a un gráfico.
+
+
+
+########################################################################################################################
+
+>>> pip3 install imagehash
+
+########################################################################################################################
+
+>>> pip3 install hashlib
+
+########################################################################################################################
+
+>>> pip3 install time
+
+########################################################################################################################
+
+typing
+
+# Biblioteca estandar de Python desde la versión 3.5
+

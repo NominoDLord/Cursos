@@ -1,0 +1,69 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║   R E A D M E   ││   G U I A   D E   P R O G R A M A C I Ó N   ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+    AUTOR: Nomino D Lord
+    FECHA: 2023/11
+
+ --------------------------------------------------------------
+
+	Introducción:
+
+Cuando empiezas a aprender a programar sin tener ni idea de por
+dónde empezar, te empiezas a perder en un sin fin de páginas llenas
+de documentación, guías, tutoriales, vídeos, etc, que al final, lo
+único que hacen es presentarte más y más y más datos, con lo cual,
+te acabas desesperando, porque al final, tienes un montón de
+información que en realidad no sabes usar.
+
+Por eso motivo he querido crear esta guía sobre programación que
+enfoca el aprendizaje desde una perspectiva distinta, en la que,
+se aprenderá la teoría a través de la práctica en lugar de aprender
+la práctica a través de la teoría.
+
+Por lo tanto, en este curso no vas a tener un manual explicándote
+qué son las funciones, variables, clases, etc.
+
+Lo que encontrarás aquí serán ejercicios que te ayudarán a entender
+estos conceptos a medida que vas utilizándolos.
+
+Personalmente, he aprendido muchísimo más haciéndole preguntas a
+ChatGPT del estilo "Créame un programa en Python que me genere
+números primos" y estudiando el programa que me generó, preguntándole
+después que me explicara "para qué servía tal función que me has
+indicado 'aquí" o 'allá' y reescribiendo el código paso por paso, que
+no de guías y manuales que se empiezan a enrollar con teoría y palabras
+que muchas veces al principio no tienes ni idea.
+
+Así que, mi consejo es que te ayudes de cualquier herramienta que
+creas necesaria (que para eso están).
+
+Evidentemente, ChatGPT no te va a ayudar a crear un programa complejo,
+pero sí que te ayudará a crear fragmentos de código que después tu
+mismo podrás ir añadiendo paso por paso como si fuese un puzle.
+
+Pero para encajar bien esas "piezas" del puzle vas a tener que entender
+"cómo" se utilizan. Y eso es precisamente lo que vas a aprender aquí.
+
+Voy a enseñarte a unir pieza por pieza explicándote como encajar una
+con otra para qué después, puedas continuar tú propio camino allá
+donde quieras llegar.
+
+Para desbloquear el archivo '.zip' necesitarás introducir el nombre
+del autor de esta documentación (osea... yo).
+
+Dentro encontrarás las carpetas donde se encuentras los ejercicios,
+programas, recursos, etc. Pero antes de empezar, para que no te pierdas
+en el mogollón de archivos que existen, recomiendo que leas el archivo
+de texto ‘Introduccion_al_curso’ en el que explico cómo utilizar
+el contenido adecuadamente.
+
+Y así, sin más, espero que disfrutes de todo lo que he preparado.
+
+
+	;^)		:^P		:^O		X^)		8^D
+
+------------------------------------------------------------------
+ ¡Kaizoku ou ni ore wa naru!

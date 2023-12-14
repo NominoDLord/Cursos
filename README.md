@@ -7,7 +7,7 @@
 ```
 ---
 
-# **CURSOS**
+# CURSOS
 
 ESTADO: En desarrollo...
 

@@ -1,0 +1,52 @@
+ ######################################################################################################################
+##                                                                                                                    ##
+##                                                                                                                    ##
+##                          #####               #####   ##   ##     ###     #####    ##    ##                         ##
+##                          ##   #   ##   ##   ##       ##   ##    ## ##    ##  ##   ###  ###                         ##
+##                          #####     ## ##    ##       #######   #######   #####    ## ## ##                         ##
+##                          ##         ###     ##       ##   ##   ##   ##   ##  ##   ##    ##                         ##
+##                          ##         ##       #####   ##   ##   ##   ##   ##  ##   ##    ##                         ##
+##                                   ##                                                                               ##
+##                                                                                                                    ##
+ ######################################################################################################################
+
+[m_L] -> Click Ratón Izquierda (mouse Left) | [m_R] -> Click Ratón Derecha (mouse Right)
+
+                              ┌──────────────────────────────────────────────────────────┐
+──────────────────────────────┤                 C  O  N  S  E  N  J  O  S                ├──────────────────────────────
+                              └──────────────────────────────────────────────────────────┘
+
+
+::: Desactivar subrallado tipográfico :::
+
+  · [Menú] > Settings [Ctrl]+[Alt]+[S] > Inspections > Proofreading - Typo (desactivar)
+
+	Al usar palabras en español, el programa las considera "inadecuadas" y las subralla en verde.
+	Esto es algo que me parece bastante molesto y para eliminar-lo:
+
+::: Recordatorios en comentarios :::
+
+  · # TODO  //  #TODO
+	
+	Los comentarios que contengan la palabra "TODO" se considerarán "especiales" y quedarán resaltados.
+	Si usamos #TODO (sin el espacio) se nos marcarán (hasta que se produzca un salto de línea) todos los comentarios
+	
+::: Nombres vinculados :::
+
+Cuando el código del programa se hace muy grande, se hace difícil encontrar a qué variables hemos asignado cierto valor.
+estos quedan vínculados entre sí. Cuando el programa es muy 
+
+< 'nombre' > + [Ctrl] + [m_L]
+
+
+
+===== ===== ===== ===== ===== ===== ===== =====       N  O  T  A  S      ===== ===== ===== ===== ===== ===== ===== =====
+
+::: Cambiar el nombre de todas las variables a la vez dentro del mismo documento :::
+
+Focus_on_var_name -> [Shift] + [F6] -> < 'Type_name' >
+
+
+::: Comentar / Descomentar :::
+
+[Ctrl] + [/]

@@ -1,0 +1,110 @@
+########################################################################################################################
+##                                                                                                                    ##
+##                                                                                                                    ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ##      #####   #####   #####         ##
+##       ###  ##  ##   ##  ###  ###    ##    ###  ##  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ## # ##  ##   ##  ## ## ##    ##    ## # ##  ##   ##      ##   ##      ##     ##   ##  #####   ##   ##       ##
+##       ##  ###  ##   ##  ##    ##    ##    ##  ###  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ######  #####   ##  ##  #####         ##
+##                                                                                                                    ##
+##                                                                                                                    ##
+########################################################################################################################
+
+# TODO: NO FINALIZADO
+
+# ============================================== BIBLIOTECAS IMPORTADAS ============================================== #
+
+
+# ================================================ VARIABLES GLOBALES ================================================ #
+
+global introducir
+
+# ================================================ CLASES & FUNCIONES ================================================ #
+
+
+def seguir_o_no_seguir() -> Bool:  # Función recursiva
+
+    global introducir
+    
+    preguntar = input("¿Quieres seguir registrando valores? [Y/N]")
+    
+    if valor == "salir":
+    
+    finalizar_programa()
+
+    else:
+    
+        if preguntar == "N":
+            introducir = False
+
+        elif preguntar == "Y":
+            introducir = True
+        
+        else:
+            print("La respuesta que has introducido no es correcta...")
+            seguir_o_no_seguir()
+            # La función se volverá a repetir de forma indefinida hasta que el valor introducido no sea "Y" o "N"
+    
+    return introducir
+
+
+def registrar_valores(introducir) -> List[int]:
+	
+    if not hasattr(contar_true_false_x100_y_total, "lista_creada"):
+    # Si la lista no está creada, se inicializa una lista vacía
+        lista_de_valores = []
+    
+    # Una vez creada, se añade el atributo "lista_creada" como "Cierto"
+    registrar_valores.lista_creada = True
+    
+    """
+    Es indiferente añadir "True" o "False", pero por lógica,
+    sería raro añadir "False" si lo que estamos
+    haciendo es decir que "Sí" hemos creado la lista.
+    """
+    lista_de_valores.append(introducir)
+    
+    return lista_de_valores
+
+def sumatoria(lista) -> int:
+    valor = 0
+    
+    for valor in lista:
+        valor += lista
+
+    return valor
+
+# ============================================== EJECUCIÓN DEL PROGRAMA ============================================== #
+
+def ejecutar_programa():
+
+    introducir = True
+
+    while introducir is True:
+
+        valor = input("Introducir un número entero: ")
+        # Para salir del programa, introducir "salir".
+       
+        try:
+            valor = (int(valor))
+            print("El valor se ha introducido correctamente.")
+            seguir_o_no_seguir()  # Con esta función podemos decidir cuándo salir del bucle.
+            
+        except Exception:
+            print("El valor introducido no es correcto.")
+    
+    print("Se han registrado los valores en la lista.")
+    print("¿Qué quieres hacer ahora?")
+    print("Introduce → \'Continuar\', \'Sumar\' o \'Salir\':")
+    respuesta = input()
+    
+    
+    ejecutar_programa()
+
+ejecutar_programa()
+
+# ==============================================  # FIN DEL PROGRAMA #  ============================================== #
+
+def finalizar_programa():
+    fin = print("Fin del programa")
+    return fin

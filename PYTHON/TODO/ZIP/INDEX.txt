@@ -1,0 +1,95 @@
+########################################################################################################################
+##                                                                                                                    ##
+##                                                                                                                    ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ##      #####   #####   #####         ##
+##       ###  ##  ##   ##  ###  ###    ##    ###  ##  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ## # ##  ##   ##  ## ## ##    ##    ## # ##  ##   ##      ##   ##      ##     ##   ##  #####   ##   ##       ##
+##       ##  ###  ##   ##  ##    ##    ##    ##  ###  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ######  #####   ##  ##  #####         ##
+##                                                                                                                    ##
+##                                                                                                                    ##
+########################################################################################################################
+
+╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                                   I · N · D · E · X                                                   ║
+║                                   -------------------------------------------------                                   ║
+║                                       G U I A    D E    P R O G R A M A C I Ó N                                       ║
+╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+
+/.Aquí encontrarás un listado del contenido disponible dentro de las carpetas para que puedas localizar rádidamente los
+ temas que más te interesen y acceder a ellos sin tener ir buscando carpeta por carpeta./
+
+╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                               C  O  N  T  E  N  I  D  O                                               │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+01. ROADMAP
+02. EJERCICIOS
+03. RESUELTOS
+04. PROGRAMAS
+05. PYW
+06. EXE
+07. FRAGMENTOS
+09. RECURSOS
+
+
+
+
+                  ┌───────────────────────────────────┐
+──────────────────┤    E  J  E  R  C  I  C  I  O  S   ├──────────────────
+                  └───────────────────────────────────┘
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>     J U E G O S     <<<<<<<<<<<<<<<<<<<<<<<<<<
+
+--- Ahorcado
+--- Piedra, Papel, Tijeras
+--- Adivinar número
+--- Laberinto
+--- Naves
+--- Juego de la Vida ()
+--- Ajedrez (IA)
+
+>>>>>>>>>>>>>>>>>>>>>>>   M A T E M Á T I C A S   <<<<<<<<<<<<<<<<<<<<<<<
+
+--- Conversor: Decimal / Binario
+
+
+
+--- Secuencia de Fibonacci
+--- Imprimir números primos
+--- Secuencia números naturales sin números primos
+--- Celsius / Fahrenheit / Kelvin
+--- Horas / Minutos / Segundos
+
+>>>>>>>>>>>>>>>>>>>>   A U T O M A T I Z A C I Ó N   <<<<<<<<<<<<<<<<<<<<
+
+--- Editar texto para saltos de línea según longitud
+--- Editar texto para suprimir los caracteres especiales
+--- Editar nombre de archivos en directorio
+--- Crear un listado (txt) de los archivos y carpetas dentro de 
+
+>>>>>>>>>>>>>>>>>>>>>>>>>     O  T  R  O  S     <<<<<<<<<<<<<<<<<<<<<<<<<
+
+--- Crear nuestro propio algoritmo "Random"
+
+--- Guardar datos después de cerrar el programa
+--- Luz apagada / Luz encendida
+
+--- Resolución de Matrices
+--- Resolución de ecuaciones de segundo grado
+--- Verdadero o Falso
+--- Calculadora
+
+--- Crear vida combinando los pares de la secuencia DNA
+--- Detección de Teclas
+--- Detección de Mouse
+--- Generador de contraseñas
+--- Guardar contraseñas 
+--- Ralentizar el tiempo
+--- Desencriptador de contraseñas
+
+--- Inteligencia Artificial (Análisis del lenguaje)
+--- IA (Entrenamiento)
+--- Comparar dos imágenes para determinar si son iguales o no

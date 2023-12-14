@@ -1,0 +1,299 @@
+########################################################################################################################
+##                                                                                                                    ##
+##                                                                                                                    ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ##      #####   #####   #####         ##
+##       ###  ##  ##   ##  ###  ###    ##    ###  ##  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ## # ##  ##   ##  ## ## ##    ##    ## # ##  ##   ##      ##   ##      ##     ##   ##  #####   ##   ##       ##
+##       ##  ###  ##   ##  ##    ##    ##    ##  ###  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ######  #####   ##  ##  #####         ##
+##                                                                                                                    ##
+##                                                                                                                    ##
+########################################################################################################################
+
+╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                         T A B L A    D E    C A R A C T E R E S                                      ║
+║                             ------------------------------------------------------------                             ║
+║                                                    A  S  C  I  I                                                     ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+                              ┌──────────────────────────────────────────────────────────┐
+──────────────────────────────┤        C A R A C T E R E S   D E   C O N T R O L         ├──────────────────────────────
+                              └──────────────────────────────────────────────────────────┘
+
+Binario  Hex  Dez  Nombre  Definición
+-------  ---  ---  ------  ----------
+0000000    0    0    NUL   El carácter nulo exhorta al dispositivo a que no haga nada (Null)
+0000001	   1    1    SOH   Inicia un encabezado (Start of Heading)
+0000010	   2    2    STX   Concluye el encabezado y señala el inicio de un mensaje (Start of Text)
+0000011    3    3    ETX   Muestra el final del mensaje (End of Text)
+0000100    4    4    EOT   Marca el final de toda la transmisión (End of Transmission)
+0000101    5    5    ENQ   Una consulta que solicita una respuesta (Enquiry)
+0000110    6    6    ACK   Ofrece una respuesta positiva a una consulta (Acknowledge)
+0000111    7    7    BEL   Produce una señal de audio (Bell)
+0001000    8    8     BS   Permite retroceder un paso con el cursor (Backspace)
+0001001    9    9    TAB   (HT)	Tabulador horizontal que mueve el cursor en una línea hacia la siguiente posición predefinida (Horizontal Tab)
+0001010    A   10     LF   Hace que el cursor salte a la línea siguiente (Line Feed)
+0001011    B   11     VT   El tabulador vertical hace que el cursor salte a una línea predefinida (Vertical Tab)
+0001100    C   12     FF   Solicita un salto de página (Form Feed)
+0001101    D   13     CR   Vuelve a poner el cursor en la primera línea (Carriage Return)
+0001110    E   14     SO   Cambia a una representación especial (Shift Out)
+0001111    F   15     SI   Hace que la representación vuelva a su estado normal (Shift In)
+0010000   10   16    DLE   Se modifica el significado de los siguientes caracteres (Data Link Escape)
+0010001   11   17    DC1   Caracteres de control que se asignan en función del dispositivo utilizado para desencadenar unas funciones específicas (Device Control)
+0010010   12   18    DC2   Caracteres de control que se asignan en función del dispositivo utilizado para desencadenar unas funciones específicas (Device Control)
+0010011   13   19    DC3   Caracteres de control que se asignan en función del dispositivo utilizado para desencadenar unas funciones específicas (Device Control)
+0010100   14   20    DC4   Caracteres de control que se asignan en función del dispositivo utilizado para desencadenar unas funciones específicas (Device Control)
+0010101   15   21    NAK   Respuesta negativa a una consulta (Negative Acknowledge)
+0010110   16   22    SYN   Sincroniza una transferencia de datos aunque no se transmita ninguna señal (Synchronous Idle)
+0010111   17   23    ETB   Marca el final de un bloque de transmisión (End of Transmission Block)
+0011000   18   24    CAN   Establece que una transmisión es incorrecta y se tienen que descartar los datos (Cancel)
+0011001   19   25     EM   Muestra el final del dispositivo de almacenamiento (End of Medium)
+0011010   1A   26    SUB   Sustituto para un carácter erróneo (Substitute)
+0011011   1B   27    ESC   Inicia una secuencia de escape y otorga al carácter siguiente un significado especial (Escape)
+0011100   1C   28     FS   File Separator: Marca la separación de bloques de datos lógicos y tiene un orden jerárquico (file > group > record > unit)
+0011101   1D   29     GS   Group Separator: Marca la separación de bloques de datos lógicos y tiene un orden jerárquico (file > group > record > unit)
+0011110   1E   30     RS   Record Separator: Marca la separación de bloques de datos lógicos y tiene un orden jerárquico (file > group > record > unit)
+0011111   1F   31     US   Unit Separator: Marca la separación de bloques de datos lógicos y tiene un orden jerárquico (file > group > record > unit)
+1111111   7F  127    DEL   Elimina un carácter. Dado que este signo de control tiene los mismos dígitos en todas las posiciones, en la época de las cintas perforadas se podía anular otro carácter troquelando todas las posiciones. (Delete)
+
+
+                              ┌──────────────────────────────────────────────────────────┐
+──────────────────────────────┤       C A R A C T E R E S   I M P R I M I B L E S        ├──────────────────────────────
+                              └──────────────────────────────────────────────────────────┘
+
+
+Binario  Hex   Dez  Print       Nombre                  Grupo
+-------  ---   ---  -----  ---------------      ---------------------
+0100000   20    32         Espacio              Caracteres especiales
+0100001   21    33    !    Exclamación (der)    Caracteres especiales
+0100010   22    34    "    Comillas dobles      Caracteres especiales
+0100011   23    35    #    Almohadilla          Caracteres especiales
+0100100   24    36    $    Símbolo de dólar     Caracteres especiales
+0100101   25    37    %    Porcentaje           Caracteres especiales
+0100110   26    38    &    Ampersand            Caracteres especiales
+0100111   27    39    '    Apóstrofe            Caracteres especiales
+0101000   28    40    (    Paréntesis (izq)     Caracteres especiales
+0101001   29    41    )    Paréntesis (der)     Caracteres especiales
+0101010   2A    42    *    Asterisco            Caracteres especiales
+0101011   2B    43    +    Signo más            Caracteres especiales
+0101100   2C    44    ,    Coma                 Caracteres especiales
+0101101   2D    45    -    Signo menos          Caracteres especiales
+0101110   2E    46    .    Punto                Caracteres especiales
+0101111   2F    47    /    Barra inclinada      Caracteres especiales
+0110000   30    48    0                         Números
+0110001   31    49    1                         Números
+0110010   32    50    2                         Números
+0110011   33    51    3                         Números
+0110100   34    52    4                         Números
+0110101   35    53    5                         Números
+0110110   36    54    6                         Números
+0110111   37    55    7                         Números
+0111000   38    56    8                         Números
+0111001   39    57    9                         Números
+0111010   3A    58    :    Dos puntos           Caracteres especiales
+0111011   3B    59    ;    Punto y coma         Caracteres especiales
+0111100   3C    60    <    Menor que            Caracteres especiales
+0111101   3D    61    =    Igual que            Caracteres especiales
+0111110   3E    62    >    Mayor que            Caracteres especiales
+0111111   3F    63    ?    Interrogación (der)  Caracteres especiales
+1000000   40    64    @    Arroba               Caracteres especiales
+1000001   41    65    A                         Mayúsculas
+1000010   42    66    B                         Mayúsculas
+1000011   43    67    C                         Mayúsculas
+1000100   44    68    D                         Mayúsculas
+1000101   45    69    E                         Mayúsculas
+1000110   46    70    F                         Mayúsculas
+1000111   47    71    G                         Mayúsculas
+1001000   48    72    H                         Mayúsculas
+1001001   49    73    I                         Mayúsculas
+1001010   4A    74    J                         Mayúsculas
+1001011   4B    75    K                         Mayúsculas
+1001100   4C    76    L                         Mayúsculas
+1001101   4D    77    M                         Mayúsculas
+1001110   4E    78    N                         Mayúsculas
+1001111   4F    79    O                         Mayúsculas
+1010000   50    80    P                         Mayúsculas
+1010001   51    81    Q                         Mayúsculas
+1010010   52    82    R                         Mayúsculas
+1010011   53    83    S                         Mayúsculas
+1010100   54    84    T                         Mayúsculas
+1010101   55    85    U                         Mayúsculas
+1010110   56    86    V                         Mayúsculas
+1010111   57    87    W                         Mayúsculas
+1011000   58    88    X                         Mayúsculas
+1011001   59    89    Y                         Mayúsculas
+1011010   5A    90    Z                         Mayúsculas
+1011011   5B    91    [    Corchete (izq)       Caracteres especiales
+1011100   5C    92    \    Barra invertida      Caracteres especiales
+1011101   5D    93    ]    Corchete derecho     Caracteres especiales
+1011110   5E    94    ^    Acento circunflejo   Caracteres especiales
+1011111   5F    95    _    Guion bajo           Caracteres especiales
+1100000   60    96    `    Acento grave         Caracteres especiales
+1100001   61    97    a                         Minúsculas
+1100010   62    98    b                         Minúsculas
+1100011   63    99    c                         Minúsculas
+1100100   64   100    d                         Minúsculas
+1100101   65   101    e                         Minúsculas
+1100110   66   102    f                         Minúsculas
+1100111   67   103    g                         Minúsculas
+1101000   68   104    h                         Minúsculas
+1101001   69   105    i                         Minúsculas
+1101010   6A   106    j                         Minúsculas
+1101011   6B   107    k                         Minúsculas
+1101100   6C   108    l                         Minúsculas
+1101101   6D   109    m                         Minúsculas
+1101110   6E   110    n                         Minúsculas
+1101111   6F   111    o                         Minúsculas
+1110000   70   112    p                         Minúsculas
+1110001   71   113    q                         Minúsculas
+1110010   72   114    r                         Minúsculas
+1110011   73   115    s                         Minúsculas
+1110100   74   116    t                         Minúsculas
+1110101   75   117    u                         Minúsculas
+1110110   76   118    v                         Minúsculas
+1110111   77   119    w                         Minúsculas
+1111000   78   120    x                         Minúsculas
+1111001   79   121    y                         Minúsculas
+1111010   7A   122    z                         Minúsculas
+1111011   7B   123    {    Llave izquierda      Caracteres especiales
+1111100   7C   124    |    Barra vertical       Caracteres especiales
+1111101   7D   125    }    Llave derecha        Caracteres especiales
+1111110   7E   126    ~    Tilde                Caracteres especiales
+
+╭──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│      ·     ·     ·     ·     ·     ·      E X T E N D E D    V E R S I O N      ·     ·     ·     ·     ·     ·      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+VERSIÓN EXTENDIDA
+
+Binario   Hex   Dez    Print       Nombre                        Grupo
+--------  ---   ----   -----   ---------------           ---------------------
+10000000   80   0128   €       Signo euro                Caracteres especiales
+10000001   81   0129   Vacío	 	                     
+10000010   82   0130   ‚       Comilla simple baja-9     Caracteres especiales
+10000011   83   0131   ƒ       Signo de función          Caracteres especiales
+10000100   84   0132   „       Doble comilla bajo-9      Caracteres especiales
+10000101   85   0133   …       Puntos suspensivos        Caracteres especiales
+10000110   86   0134   †       Cruz                      Caracteres especiales
+10000111   87   0135   ‡       Doble daga                Caracteres especiales
+10001000   88   0136   ˆ       Acento circunflejo        Caracteres especiales
+10001001   89   0137   ‰       Signo por mil             Caracteres especiales
+10001010   8A   0138   Š                                 Mayúsculas
+10001011   8B   0139   ‹       Comilla ángulo (izq)      Caracteres especiales
+10001100   8C   0140   Œ                                 Mayúsculas
+10001101   8D   0141   Vacío                            
+10001110   8E   0142   Ž                                 Mayúsculas
+10001111   8F   0143   Vacío
+10010000   90   0144   Vacío
+10010001   91   0145   ‘       Comilla simple (izq)      Caracteres especiales
+10010010   92   0146   ’       Comilla simple (der)      Caracteres especiales
+10010011   93   0147   “       Comilla doble (izq)       Caracteres especiales
+10010100   94   0148   ”       Comilla doble (der)       Caracteres especiales
+10010101   95   0149   •       Bala                      Caracteres especiales
+10010110   96   0150   –       Guion (“en dash”)         Caracteres especiales
+10010111   97   0151   —       Guion largo (“em dash”)   Caracteres especiales
+10011000   98   0152   ˜       Signo de equivalencia     Caracteres especiales
+10011001   99   0153   ™       Signo de marca            Caracteres especiales
+10011010   9A   0154   š                                 Minúsculas
+10011011   9B   0155   ›       Comilla ángulo (der)      Caracteres especiales
+10011100   9C   0156   Œ                                 Mayúsculas
+10011101   9D   0157   Vacío                             
+10011110   9E   0158   Ž                                 Minúsculas
+10011111   9F   0159   Ÿ                                 Mayúsculas
+10100000   A0   0160   Vacío                             
+10100001   A1   0161   ¡       Exclamación (izq)         Caracteres especiales
+10100010   A2   0162   ¢       Signo de centavos         Caracteres especiales
+10100011   A3   0163   £       Signo libra esterlina     Caracteres especiales
+10100100   A4   0164   ¤       Signo divisa general      Caracteres especiales
+10100101   A5   0165   ¥       Signo yen / yuan          Caracteres especiales
+10100110   A6   0166   ¦       Barra vertical partida    Caracteres especiales
+10100111   A7   0167   §       Signo de sección          Caracteres especiales
+10101000   A8   0168   ¨       Diéresis                  Caracteres especiales
+10101001   A9   0169   ©       Signo copyright           Caracteres especiales
+10101010   AA   0170   ª       Signo ordinal femenino    Caracteres especiales
+10101011   AB   0171   «       Comillas angulares (izq)  Caracteres especiales
+10101100   AC   0172   ¬       Signo de negación         Caracteres especiales
+10101101   AD   0173   ­       Guion suave               Caracteres especiales
+10101110   AE   0174   ®       Signo marca registrada    Caracteres especiales
+10101111   AF   0175   ¯       Guion alto                Caracteres especiales
+10110000   B0   0176   °       Signo de grado            Caracteres especiales
+10110001   B1   0177   ±       Signo más menos           Caracteres especiales
+10110010   B2   0178   ²       Superíndice dos           Caracteres especiales
+10110011   B3   0179   ³       Superíndice tres          Caracteres especiales
+10110100   B4   0180   ´       Acento agudo              Caracteres especiales
+10110101   B5   0181   µ       Signo de micro            Caracteres especiales
+10110110   B6   0182   ¶       Fin de párrafo            Caracteres especiales
+10110111   B7   0183   ·       Punto medio               Caracteres especiales
+10111000   B8   0184   ¸       Cedilla                   Caracteres especiales
+10111001   B9   0185   ¹       Superíndice uno           Caracteres especiales
+10111010   BA   0186   º       Signo ordinal             Caracteres especiales
+10111011   BB   0187   »       Comillas angulares (der)  Caracteres especiales
+10111100   BC   0188   ¼       Un cuarto                 Caracteres especiales
+10111101   BD   0189   ½       Un medio                  Caracteres especiales
+10111110   BE   0190   ¾       Tres cuartos              Caracteres especiales
+10111111   BF   0191   ¿       Interrogación (izq)       Caracteres especiales
+11000000   C0   0192   À                                 Mayúsculas
+11000001   C1   0193   Á                                 Mayúsculas
+11000010   C2   0194   Â                                 Mayúsculas
+11000011   C3   0195   Ã                                 Mayúsculas
+11000100   C4   0196   Ä                                 Mayúsculas
+11000101   C5   0197   Å                                 Mayúsculas
+11000110   C6   0198   Æ                                 Mayúsculas
+11000111   C7   0199   Ç                                 Mayúsculas
+11001000   C8   0200   È                                 Mayúsculas
+11001001   C9   0201   É                                 Mayúsculas
+11001010   CA   0202   Ê                                 Mayúsculas
+11001011   CB   0203   Ë                                 Mayúsculas
+11001100   CC   0204   Ì                                 Mayúsculas
+11001101   CD   0205   Í                                 Mayúsculas
+11001110   CE   0206   Î                                 Mayúsculas
+11001111   CF   0207   Ï                                 Mayúsculas
+11010000   D0   0208   Ð                                 Mayúsculas
+11010001   D1   0209   Ñ                                 Mayúsculas
+11010010   D2   0210   Ò                                 Mayúsculas
+11010011   D3   0211   Ó                                 Mayúsculas
+11010100   D4   0212   Ô                                 Mayúsculas
+11010101   D5   0213   Õ                                 Mayúsculas
+11010110   D6   0214   Ö                                 Mayúsculas
+11010111   D7   0215   ×       Signo de multiplicación   Caracteres especiales
+11011000   D8   0216   Ø                                 Mayúsculas
+11011001   D9   0217   Ù                                 Mayúsculas
+11011010   DA   0218   Ú                                 Mayúsculas
+11011011   DB   0219   Û                                 Mayúsculas
+11011100   DC   0220   Ü                                 Mayúsculas
+11011101   DD   0221   Ý                                 Mayúsculas
+11011110   DE   0222   Þ                                 Mayúsculas
+11011111   DF   0223   ß                                 Minúsculas
+11100000   E0   0224   à                                 Minúsculas
+11100001   E1   0225   á                                 Minúsculas
+11100010   E2   0226   â                                 Minúsculas
+11100011   E3   0227   ã                                 Minúsculas
+11100100   E4   0228   ä                                 Minúsculas
+11100101   E5   0229   å                                 Minúsculas
+11100110   E6   0230   æ                                 Minúsculas
+11100111   E7   0231   ç                                 Minúsculas
+11101000   E8   0232   è                                 Minúsculas
+11101001   E9   0233   é                                 Minúsculas
+11101010   EA   0234   ê                                 Minúsculas
+11101011   EB   0235   ë                                 Minúsculas
+11101100   EC   0236   ì                                 Minúsculas
+11101101   ED   0237   í                                 Minúsculas
+11101110   EE   0238   î                                 Minúsculas
+11101111   EF   0239   ï                                 Minúsculas
+11110000   F0   0240   ð                                 Minúsculas
+11110001   F1   0241   ñ                                 Minúsculas
+11110010   F2   0242   ò                                 Minúsculas
+11110011   F3   0243   ó                                 Minúsculas
+11110100   F4   0244   ô                                 Minúsculas
+11110101   F5   0245   õ                                 Minúsculas
+11110110   F6   0246   ö                                 Minúsculas
+11110111   F7   0247   ÷       Signo de división         Caracteres especiales
+11111000   F8   0248   ø                                 Minúsculas
+11111001   F9   0249   ù                                 Minúsculas
+11111010   FA   0250   ú                                 Minúsculas
+11111011   FB   0251   û                                 Minúsculas
+11111100   FC   0252   ü                                 Minúsculas
+11111101   FD   0253   ý                                 Minúsculas
+11111110   FE   0254   þ                                 Minúsculas
+11111111   FF   0255   ÿ                                 Minúsculas

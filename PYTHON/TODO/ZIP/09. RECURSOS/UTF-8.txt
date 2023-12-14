@@ -1,0 +1,27 @@
+#########################################################################
+##                                                                     ##
+##             ##   ##   ########   ######          ######             ##
+##             ##   ##      ##      ##              ##  ##             ##
+##             ##   ##      ##      ####    #####   ######             ##
+##             ##   ##      ##      ##              ##  ##             ##
+##              #####       ##      ##              ######             ##
+##                                                                     ##
+#########################################################################
+
+	UTF-8: el estándar de la red
+
+Quien lee una página en inglés o un correo electrónico en japonés no
+solo domina estos idiomas, sino que lo más probable es que también
+sea testigo de la marcha triunfal de UTF-8. “UTF-8” es la abreviatura
+de “8-bit UnicodeTransformation Format” y designa a la codificación de
+caracteres más extendida en la World Wide Web. El estándar internacional
+Unicode incluye tanto signos lingüísticos como elementos textuales de
+(casi) todos los idiomas, para el procesamiento electrónico de datos.
+Por ello, los códigos UTF-8 desempeñan para Unicode un papel fundamental.
+
+
+
+
+
+
+https://www.ionos.es/digitalguide/paginas-web/creacion-de-paginas-web/utf-8-codificacion-para-una-comunicacion-digital-global/

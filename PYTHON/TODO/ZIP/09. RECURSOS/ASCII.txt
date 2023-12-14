@@ -1,0 +1,148 @@
+#########################################################################
+##                                                                     ##
+##             ###      ######     #####    ######    ######           ##
+##            ## ##     ##        ##          ##        ##             ##
+##           #######    ######    ##          ##        ##             ##
+##           ##   ##        ##    ##          ##        ##             ##
+##           ##   ##    ######     #####    ######    ######           ##
+##                                                                     ##
+#########################################################################
+
+El código ASCII es una codificación de caracteres que determina su
+representación en los dispositivos electrónicos como, por ejemplo,
+los ordenadores. Ahora bien, para que un ordenador pueda procesar los
+caracteres individuales, primero deben adoptar valores binarios,
+decimales y hexadecimales.
+
+
+	¿QUÉ ES EL CÓDIGO ASCII?
+
+ASCII es un estándar para la representación de caracteres en dispositivos
+electrónicos. Para entender lo que significa es necesario conocer cómo
+funciona un ordenador: en él los procesos de cálculo se basan siempre en
+el sistema binario, lo que significa que ceros y unos determinan las
+operaciones. Por ello, ASCII se erige sobre este sistema.
+
+El estándar ASCII original define diversos caracteres en siete bits,
+es decir, siete posiciones que muestran 0 o 1.
+
+El octavo bit, que pertenece a un byte completo, se utiliza normalmente
+para los análisis. Las versiones ampliadas basadas en el código ASCII
+emplean dicho bit para incrementar los caracteres existentes a 256 (28).
+
+
+# NOTA
+
+En un principio, el octavo bit fue concebido para comprobar la presencia
+de errores en los datos. El denominado bit de paridad permite que el receptor
+de la cadena de bits identifique posibles incongruencias. Sin embargo, solo
+puede saberse que ha ocurrido un error, pero no a qué se debe. Por ello, la
+comprobación de la paridad no resulta muy adecuada para corregir errores.
+
+- - - - -
+
+Así, a cada carácter le corresponde una secuencia de 7 cifras formada por
+ceros y unos, que pueden aparecer como números decimales o hexadecimales.
+Los caracteres ASCII se reparten en varios grupos:
+
+- Caracteres de control (0–31 & 127)
+
+	Los caracteres de control no son caracteres imprimibles.
+	Estos transmiten comandos al PC o a la impresora y se basan en técnicas de
+	teletipo. Con este signo se pueden colocar, por ejemplo, saltos de línea o
+	tabuladores, aunque	muchos apenas se utilizan en la actualidad.
+
+
+- Caracteres especiales (32–47 / 58–64 / 91–96 / 123–126)
+
+	Estos comprenden todos los imprimibles que no son ni letras ni números, como
+	por ejemplo los signos de puntuación o los símbolos matemáticos. También se
+	incluye el espacio en blanco, que es considerado como carácter imprimible pero
+	no visible y, por lo tanto, no pertenece a los caracteres de control como se
+	podría suponer.
+
+
+- Números (30–39)
+
+	Los números engloban las diez cifras árabes del cero al nueve.
+
+- Letras (65–90 / 97–122)
+
+	Las letras se dividen en dos bloques, el primero para las mayúsculas
+	y el segundo para las minúsculas.
+
+
+	EJEMPLO: CARÁCTER ASCII
+
+
+En ASCII, el sistema convierte el código binario en caracteres imprimibles y no
+imprimibles conforme a un estándar establecido. La tabla de códigos ASCII tiene
+todos los valores numéricos con los caracteres correspondientes.
+
+# EJEMPLO:
+
+El número binario 01000001 tiene, según el sistema decimal y hexadecimal, los
+valores respectivos: 65 y 41. Por lo tanto, el carácter codificado corresponde
+a la letra “A”. Ahora, si continúas bajando, encontrarás las letras en mayúsculas
+en orden alfabético y, como puedes ver, la palabra de ejemplo “ASCII” corresponde
+a los siguientes valores numéricos:
+
+
+                 ---------------------------------------------------------------
+  CODIFICACIÓN  |       A       |       S       |       C       |       I       | 
+ --------------- --------------- --------------- --------------- ---------------
+|  Binario      |    01000001   |    01010011   |    01000011   |    01001001   |
+|  Decimal      |       65      |       83      |       67      |       73      |
+|  Hexadecimal  |       41      |       53      |       43      |       49      |
+ -------------------------------------------------------------------------------
+
+
+	Código ASCII: utilidad y ámbitos de aplicación
+
+La codificación ASCII se utiliza bastante en la actualidad, aunque UTF-8 también
+se ha vuelto muy importante para la representación de textos. A partir de 2008
+aproximadamente, Unicode desbancó del primer puesto en la World Wide Web a la
+versión más antigua de la codificación de caracteres. La ventaja de UTF-8 es que
+el código es prácticamente compatible con las versiones anteriores: ASCII es un
+subconjunto de UTF-8, por lo que los primeros 128 caracteres son idénticos.
+
+Debido a que el ASCII es considerado como un mínimo denominador común de la mayoría
+de las nuevas formas de comunicación, la antigua codificación sigue utilizándose
+en los correos electrónicos y URL.
+
+Asimismo, el código ASCII se utiliza desde hace tiempo más para fines artísticos
+que para fines técnicos. El ASCII Art es un arte que solo emplea caracteres
+imprimibles de la tabla de ASCII para crear imágenes, cuya gama va desde trazos
+pasando por sencillas líneas patrón hasta verdaderos cuadros. Los artistas ASCII
+se valen así de las diferentes luminosidades de los caracteres para representar
+incluso matices.
+
+
+	Breve historia de la codificación ASCII
+
+La American Standards Association (ASA, más conocida en la actualidad como ANSI
+por American National Standards Institute) aprueba el American Standard Code for
+Information Interchange (ASCII) ya en el año 1963. De este modo contribuye con
+indicaciones obligatorias a la forma en que los dispositivos electrónicos han de
+representar los diversos caracteres. Debido a que se trata de un estándar puramente
+estadounidense, a veces también se habla de él como US ASCII.
+
+Algunos de sus predecesores son el código morse o las codificaciones utilizadas
+en el télex o teletipo: un código estandarizado (por ejemplo, una sucesión
+determinada de señales acústicas) que se traduce en texto. La codificación ASCII
+se creó porque los ordenadores no pueden comprender nuestro alfabeto, pues sus
+procesos internos se basan en el sistema binario.
+
+Hasta hoy, el código ASCII solo se ha modificado en contadas ocasiones para adaptarse
+a las nuevas exigencias. Existen versiones ampliadas que, por ejemplo, utilizan un
+octavo bit para representar unidades nacionales, como es el caso de los símbolos
+diacríticos, al igual que los acentos del español o del francés. La norma Latin-1
+(ISO 88591-1), necesaria para algunos idiomas de Europa occidental, se basa en código ASCII.
+
+Cambiar de un alfabeto a otro no es posible, lo que ha hecho que se hayan impuesto
+códigos basados en Unicode como UTF-8, pues tiene la capacidad para más de un millón
+de caracteres diferentes. Además, es compatible con ASCII y codifica los primeros
+los primeros 128 caracteres.
+
+
+https://www.ionos.es/digitalguide/servidores/know-how/ascii-american-standard-code-for-information-interchange

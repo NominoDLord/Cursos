@@ -1,0 +1,367 @@
+########################################################################################################################
+##                                                                                                                    ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ##      #####   #####   #####         ##
+##       ###  ##  ##   ##  ###  ###    ##    ###  ##  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ## # ##  ##   ##  ## ## ##    ##    ## # ##  ##   ##      ##   ##      ##     ##   ##  #####   ##   ##       ##
+##       ##  ###  ##   ##  ##    ##    ##    ##  ###  ##   ##      ##   ##      ##     ##   ##  ##  ##  ##   ##       ##
+##       ##   ##   #####   ##    ##  ######  ##   ##   #####       #####        ######  #####   ##  ##  #####         ##
+##                                                                                                                    ##
+########################################################################################################################
+ 
+Abstracción: Proceso de simplificar o enfocarse en los aspectos esenciales de un concepto, ocultando los detalles innecesarios.
+
+Ámbito (Scope): Área en un programa donde una variable puede ser accesada o modificada. Define la visibilidad y duración de las variables.
+
+API (Interfaz de Programación de Aplicaciones): Conjunto de reglas y herramientas que permiten a diferentes software comunicarse entre sí. Facilita la integración de funciones y servicios.
+
+Árbol de Decisión: Estructura de representación visual de decisiones y sus posibles consecuencias, utilizada en algoritmos de aprendizaje automático.
+
+Árbol de Directorios: Representación jerárquica de la estructura de carpetas y archivos en un sistema de archivos.
+
+Argumento: Valor que se pasa a una función durante su invocación para que la procese.
+
+Arreglo: Estructura de datos que almacena elementos del mismo tipo, organizados en posiciones numeradas.
+
+Asignación: Proceso de dar un valor a una variable.
+
+Backend: Parte de una aplicación que maneja la lógica interna, el procesamiento de datos y la interacción con la base de datos.
+
+Bash: [Abreviatura de "Bourne Again SHell"] Intérprete de comandos y un lenguaje de programación de script utilizado principalmente en sistemas operativos Unix y Linux.
+
+Biblioteca Estándar: Conjunto de módulos y funciones incorporadas en un lenguaje de programación que proporcionan utilidades comunes.
+
+Bifurcación: Estructura de control que permite ejecutar diferentes bloques de código según una condición.
+
+Binario: Sistema de numeración que utiliza solo dos dígitos, 0 y 1.
+
+Bit: La unidad más pequeña de información en la computación, representando un dígito binario (0 o 1).
+
+Bucle: Estructura de control que repite un bloque de código hasta que se cumple una condición específica.
+
+Byte: Conjunto de 8 bits, la unidad básica de almacenamiento de información en la computación.
+
+Cadena (String): Secuencia de caracteres alfanuméricos utilizada para representar texto en programación.
+
+Callback: Función que se pasa como argumento a otra función y se ejecuta después de que cierto evento ocurra.
+
+Carácter de Escape: Carácter especial utilizado para representar secuencias que no pueden ser representadas directamente, como saltos de línea (\n) o tabulaciones (\t).
+
+Ciclo de Vida: Conjunto de etapas que un programa o componente atraviesa desde su creación hasta su finalización.
+
+Clase: Plantilla para la creación de objetos que define atributos y métodos comunes a todos los objetos de ese tipo.
+
+Clonar: Crear una copia exacta de un objeto.
+
+Código Abierto: Software cuyo código fuente es accesible y modificable por la comunidad.
+
+Código Fuente: Conjunto de instrucciones escritas por un programador en un lenguaje de programación.
+
+Compilación: Proceso de traducir el código fuente a un código ejecutable.
+
+Compilado: Código fuente traducido a un lenguaje de bajo nivel y listo para ejecutarse.
+
+Compilador: Programa que traduce el código fuente a un lenguaje de máquina o código objeto.
+
+Concurrencia: Ejecución simultánea de múltiples tareas en un programa.
+
+Condición: Expresión que evalúa a verdadero o falso y controla la ejecución de ciertas porciones de código.
+
+Constante: Valor que no cambia durante la ejecución de un programa.
+
+Constructor: Método especial de una clase que se ejecuta automáticamente al crear un objeto de esa clase.
+
+Contenedor: Estructura de datos que almacena y organiza otros objetos o datos.
+
+Contexto: Entorno o condiciones que rodean y afectan a una situación, evento o objeto.
+
+Controlador: Componente que gestiona la lógica de una aplicación y maneja la interacción con el usuario.
+
+Copia de Seguridad: Réplica de los datos originales almacenada para su recuperación en caso de pérdida o daño.
+
+Crawling: Proceso de recopilación automática de información de la web por parte de un programa.
+
+Declaración: Instrucción que introduce un nombre en el programa y especifica su tipo y comportamiento.
+
+Decorador: Función especial que modifica el comportamiento de otra función.
+
+Dependencia: Relación entre dos módulos o componentes donde un cambio en uno afecta al otro.
+
+Depuración: Proceso de identificar y corregir errores o defectos en un programa.
+
+Desarrollo Ágil: Enfoque de desarrollo de software que prioriza la flexibilidad y la colaboración continua con el cliente.
+
+Desarrollo Web: Creación de sitios y aplicaciones web, abarcando diseño, programación y mantenimiento.
+
+Diagrama: Representación gráfica de conceptos y relaciones en un sistema o proceso.
+
+Diseño Gráfico: Creación visual de elementos gráficos para comunicar un mensaje o concepto.
+
+Diseño Orientado a Objetos: Enfoque de diseño de software basado en la creación y manipulación de objetos.
+
+Diseño Web: Proceso de planificación y creación de la estructura y apariencia de sitios web.
+
+Documento de Requisitos: Descripción detallada de las funciones y características que debe tener un software.
+
+Eclipse: Entorno de desarrollo integrado (IDE) utilizado para programar en varios lenguajes, incluido Java.
+
+Efecto Secundario: Cambio observable en el estado del sistema causado por una función, más allá del valor de retorno.
+
+Eficiencia: Medida de rendimiento que evalúa la capacidad de un programa para realizar tareas de manera rápida y con bajo consumo de recursos.
+
+Encapsulación: Principio de la programación orientada a objetos que oculta los detalles internos de una clase y expone solo lo necesario.
+
+Encapsulamiento: Proceso de agrupar datos y los métodos que operan sobre ellos en una única unidad, conocida como clase.
+
+Entero (Integer): Tipo de dato que representa números enteros sin decimales.
+
+Entorno de Desarrollo (IDE): Herramienta que proporciona un entorno integrado para el desarrollo de software, incluyendo editor, compilador y depurador.
+
+Error: Desviación no deseada del comportamiento esperado de un programa.
+
+Estructura de Control: Instrucciones que determinan el flujo de ejecución de un programa, como if, else, for y while.
+
+Estructura de Datos: Forma de organizar y almacenar datos para facilitar su manipulación y acceso.
+
+Estructura de Programación: Organización lógica y secuencial de instrucciones que realiza una tarea específica.
+
+Excepción: Situación anormal o error que ocurre durante la ejecución de un programa y puede ser manejado.
+
+Explotación: Aprovechamiento de vulnerabilidades o debilidades en un sistema con fines maliciosos.
+
+Explotación de Datos: Análisis y uso de grandes conjuntos de datos para obtener información valiosa.
+
+Expresión Regular: Patrón de búsqueda utilizado para encontrar y manipular cadenas de texto.
+
+Extensión: Archivo o módulo que agrega funcionalidad a un programa existente.
+
+Filtrado: Proceso de seleccionar y mostrar solo los datos que cumplen con ciertos criterios.
+
+Flujo de Control: Secuencia en la que las instrucciones se ejecutan en un programa.
+
+Framework: Conjunto de herramientas y bibliotecas que proporcionan una estructura para el desarrollo de software.
+
+Framework Frontend: Conjunto de herramientas y bibliotecas para el desarrollo del lado del cliente en aplicaciones web.
+
+Frontend: Parte de una aplicación que interactúa directamente con el usuario.
+
+Función: Bloque de código que realiza una tarea específica y puede ser llamado desde otras partes del programa.
+
+Git (Sistema de Control de Versiones): Sistema que realiza un seguimiento de los cambios en el código fuente durante el desarrollo de software.
+
+Gráfico: Representación visual de datos o relaciones entre elementos.
+
+Hacker: Persona que utiliza sus habilidades informáticas para explorar y entender sistemas informáticos, a menudo con intenciones éticas.
+
+Hash: Valor único generado a partir de datos, utilizado para identificar de manera única esos datos.
+
+Herencia: Mecanismo que permite a una clase heredar atributos y métodos de otra clase.
+
+Hilo (Thread): Secuencia más pequeña de ejecución dentro de un proceso.
+
+Hilo de Ejecución: Secuencia de instrucciones que se ejecutan de manera concurrente en un programa.
+
+HTML (Lenguaje de Marcado de Hipertexto): Lenguaje utilizado para estructurar contenido web.
+
+IDE (Entorno de Desarrollo Integrado): Herramienta que proporciona un entorno completo para el desarrollo de software.
+
+Implementación: Fase en la que se traduce el diseño de software en código ejecutable.
+
+Índice: Valor que indica la posición de un elemento en una estructura de datos, como una lista o un array.
+
+Inferencia: Proceso de deducir automáticamente la información basada en datos y patrones existentes.
+
+Infraestructura como Servicio (IaaS): Modelo de servicio en la nube que proporciona recursos de infraestructura virtualizada.
+
+Inherit (Herencia): Palabra clave utilizada en algunos lenguajes de programación para indicar herencia de una clase.
+
+Inmutable: Valor que no puede ser modificado después de su creación.
+
+Instancia: Objeto creado a partir de una clase.
+
+Integración: Proceso de combinar componentes o sistemas para que funcionen como uno solo.
+
+Interfaz: Punto de interacción entre dos sistemas o componentes.
+
+Interfaz de Usuario (UI): Parte de una aplicación que permite la interacción del usuario.
+
+Interpolación: Proceso de insertar valores en una cadena o texto.
+
+Interpolación de Cadenas: Técnica que combina variables o valores en una cadena.
+
+Interprete: Programa que ejecuta código fuente directamente sin necesidad de compilación previa.
+
+Inyección de Dependencias: Patrón de diseño que permite la inyección de componentes externos en una aplicación.
+
+Iteración: Repetición de un conjunto de instrucciones o procesos.
+
+Iterador: Objeto que permite recorrer secuencialmente los elementos de una colección.
+
+Java: Lenguaje de programación de propósito general que se ejecuta en la máquina virtual Java (JVM).
+
+JavaScript: Lenguaje de programación utilizado principalmente para el desarrollo web del lado del cliente.
+
+Jerarquía
+Join (Unión)
+JSON (Notación de Objetos de JavaScript)
+Jupyter
+Kernel
+Kotlin
+KPI (Indicador Clave de Rendimiento)
+Lectura
+Lenguaje de Bajo Nivel
+Lenguaje de Máquina
+Lenguaje de Programación
+Lexer
+Límite de Llamada (Rate Limit)
+Línea de Comandos (CLI)
+Línea de Tiempo
+Linguaje Natural
+Lisp
+Lista
+Literal
+Log (Registro)
+Lógica Binaria
+Lógica de Negocio
+Lógica de Negocios
+Lógica de Programación
+Loop Infinito
+Loops (Bucles)
+Machine Learning (Aprendizaje Automático)
+Manejo de Errores
+Mapa de Bits (Bitmap)
+Marco (Framework)
+Matriz
+MD5 (Algoritmo de Resumen de Mensajes)
+Mensajería
+Metaclase
+Metadatos
+Método
+Middleware
+Miniatura
+Mixin
+Modelo de Datos
+Modelo Vista Controlador (MVC)
+Modularidad
+Módulo
+Monolito
+Navegador
+Navegador Web
+NFC (Comunicación de Campo Cercano)
+Nginx
+Nodo
+Nomad
+Nomenclatura
+NoSQL
+Núcleo (Kernel)
+Número Aleatorio
+Objeto
+Objeto de Valor
+Objeto Inteligente (Smart Object)
+OpenGL
+Operador
+Operador Ternario
+Optimización
+Oráculo (Software)
+Ordenamiento
+Ordenamiento Rápido (QuickSort)
+Orientación a Aspectos
+Orientado a Objetos
+ORM (Mapeo Objeto-Relacional)
+Overfitting
+Overhead
+Página Web Estática
+Paradigma de Programación
+Paralelismo
+Parámetro
+Parser
+Patrón de Diseño
+Persistencia de Datos
+PHP
+Pila (Stack)
+Pilas y Colas
+Píxel
+Plantilla
+Platzi
+Podcast
+Polimorfismo
+Programación Concurrente
+Programación Declarativa
+Programación Dinámica
+Programación Funcional
+Programación Imperativa
+Programación Lógica
+Programación Modular
+Programación Orientada a Objetos
+Programación Paralela
+Programación Reactiva
+Programación Recursiva
+Programación Síncrona
+Protocolo
+Pseudocódigo
+Puntero
+Python
+Quantum Computing (Computación Cuántica)
+Query (Consulta)
+Quicksort (Ordenamiento Rápido)
+Rama (Branch)
+Raspberry Pi
+Razón de Aspecto
+React (Biblioteca de JavaScript)
+Reactividad
+Recursividad
+Recurso
+Red de Computadoras
+Red Neuronal
+Redis (Almacenamiento de Datos en Memoria)
+Refactoring (Refactorización)
+Refactorización
+Referencia
+Regla de Negocio
+Repositorio
+Requerimientos Funcionales
+Requerimientos No Funcionales
+Retorno
+Ruta
+Sass (Preprocesador de Hojas de Estilo)
+Script
+Scrum
+SDK (Kit de Desarrollo de Software)
+Semántica
+Servicio
+Servidor
+Servidor de Aplicaciones
+Servidor Web
+Shell
+Shift (Desplazamiento)
+Sintaxis
+Sistema de Archivos
+Sistema de Control de Versiones
+Sistema Distribuido
+Sistema Embebido
+Sistema Operativo
+Slicing (Rebanado)
+Socket
+Software
+SQL (Lenguaje de Consulta Estructurado)
+Stack Overflow
+Static (Estático)
+String (Cadena)
+Subrutina
+Súper Clase
+Tabla
+TCP/IP (Protocolo de Control de Transmisión/Protocolo de Internet)
+Terminal
+Test Driven Development (TDD)
+Test Unitario
+Token
+Transpilador
+Tuple (Tupla)
+UML (Lenguaje de Modelado Unificado)
+Variable
+Vista
+VPN (Red Privada Virtual)
+Web Service
+Widget
+XML (Lenguaje de Marcado Extensible)
+YAML (Lenguaje de Marcado Ain't Markup Language)
+Zona de Texto
